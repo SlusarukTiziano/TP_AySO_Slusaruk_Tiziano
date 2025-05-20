@@ -1,0 +1,209 @@
+ls -l
+mkdir clase5
+ls -l
+cd clase5
+ls -l
+echo hola > texto1.txt
+ls -l
+cat texto1,txt
+cat texto1.txt
+chmod 666 texto1.txt
+ls -l
+echo chau < texto2.txt
+echo chau
+echo chau > texto2.txt
+ls -l
+cd ..
+ls -l
+chmod -R 777 clase5
+ls -l
+cd clase5
+ls -l
+chmod 700 texto1.txt
+ls-l
+ls -l
+chmod g+r texto1.txt
+ls -l
+chmod 600 texto1.txt
+ls -l
+echo Mi primer script
+echo Funciono ok
+cat << FIN > script1
+pwd
+ls -l
+echo Mi primer script
+echo Funciono ok
+FIN
+
+bash script1
+vim script2.sh
+ls -l
+chmod g+r texto1.txt
+ls -l
+chmod 764 script2.sh
+ls -l
+chmod 641 texto1.txt
+ls -l
+./script2.sh
+ls -l
+cd ..
+pwd
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+ls -la
+ls -la .ssh/
+cat .ssh/id_ed25519.pub
+pwd
+mkdir repogit
+cd repogit
+git clone git@github.com:SlusarukTiziano/TP_AySO_Slusaruk_Tiziano.git
+ls -l
+cat README.md
+ls lasd
+lsd
+ls -l
+cd repogit
+ls -l
+pwd
+cd TP_AySO_Slusaruk_Tiziano/
+ls -l
+pwd
+cat /etc/os-release
+man grep
+/etc/os-release
+grep -i HOME-URL/etc/os-release
+ls -l
+pwd
+s - -l -
+ls -l
+cd repogit
+ls -l
+cd TP_AySO_Slusaruk_Tiziano/
+ls -l
+awd
+ls -l
+pwd
+man grep
+ls -l
+cat /etc/os-release
+grep -i home-url /etc/os-release
+grep -i home_url /etc/os-release > datos_url.txt
+ls -l
+cat datos_url.txt
+grep -i HOME_URL /etc/os-release
+git add.
+git add
+ls -l
+cat datos_url.txt
+whoami
+echo "Usuario=$vagrant" > datos_usuario.txt
+ls -l
+git add .
+git config --global user.email "slusaruktiziano25@gmail.com"
+git config --global user.name "SlusarukTiziano"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+ls -l
+cat dato_usuario.txt
+cat datos_usuario.txt
+suaarmtuuuuuaro.tt
+ls -l
+cd repogit
+ls -l
+cd TP_AySO_Slusaruk_Tiziano/
+ls -l
+rm datos_usuario.txt
+ls -l
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls -l
+cat datos_usuario.txt
+git status
+git add .
+git status
+git push
+ls -l
+cat datos_usuario.txt
+git stutus
+git status
+ls -l
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt 
+ls -l
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+ls -l
+cat datos_usuario.txt
+rm datos_usuarios.txt
+ls -l
+cat datos_usuario.txt
+ls -l
+git add datos_usuario.txt
+git commit -m "feat : Añadiendo informacion de CPU"
+git push
+git pull --rebase origin main
+git push origin main
+ls -l
+cat datos_usuario.txt
+rm datos_usuario.txt
+ls -l
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls -l
+cat datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+cat datos_usuario.txt
+git add datos_usuario.txt
+ls -l
+git commit -m "feat: Añadiendo informacion de CPU"
+git push
+git branch
+git pull --rebase origin main
+git push origin main
+git rebase --abort
+git checkout main
+git pull --rebase origin main
+cat datos_usuario.txt
+nano datos_usuario.txt
+cd repogit
+cd TP_AySO_Slusaruk_Tiziano/
+ls -l
+cat datos_usuario.txt 
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo informacion de CPU"
+git psh
+git push
+git branch
+cd repogit
+cd TP_AySO_Slusaruk_Tiziano/
+ls -l
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo informacion de CPU"
+git push origin main
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo informacion de CPU"
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo informacion de CPU"
+git add .
+git rebase --continue
+git push
+cat <<EOF >> README.md
+Alumno: Slusaruk Tiziano
+Division: 114
+Turno: Mañana
+EOF
+
+git add README.md datos:usuario.txt
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+mkdir -p ~/materia{1,2}/uni{1,2,3}
+ls -R ~/materia*
+ls -l
+echo "mkdir -p ~/materia{1,2}/uni{1,2,3}" > script_dir.sh
+ls -l
+chmod +x script_dir.sh 
+cat script_dir.sh 
+git add script_dir.sh 
+git commit -m "ADD: Añadiendo script de estructura de directorios"
+git push
+history -a
+ls -l
+cp ~/.bash_history ./Historial_comandos_Apellido.txt
